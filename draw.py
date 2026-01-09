@@ -7,8 +7,8 @@ pts = [
 xs, ys = zip(*pts)
 
 plt.scatter(xs, ys, s=80)
-plt.axhline(0, color='gray', linewidth=0.5)
-plt.axvline(0, color='gray', linewidth=0.5)
+#plt.axhline(0, color='gray', linewidth=0.5)
+#plt.axvline(0, color='gray', linewidth=0.5)
 plt.gca().set_aspect('equal', adjustable='box')
 plt.grid(True, linestyle=':', linewidth=0.5)
 plt.show()
