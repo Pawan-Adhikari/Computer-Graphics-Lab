@@ -54,7 +54,8 @@ public:
 };  
 
 int main() {
-    Circle C(1,1,20); //Circle with center at 1,1 and of radius 5
+    Circle C(200, 200, 80);
     C.draw();
+
     return 0;
 }
