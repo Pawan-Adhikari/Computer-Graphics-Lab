@@ -27,7 +27,7 @@ sf::Vector2f rotatePoint(sf::Vector2f point, sf::Vector2f center, float angleDeg
 
 int main() {
     //Main window definition
-    sf::RenderWindow window(sf::VideoMode({600, 600}), "Manual Mechanical Clock - 081BCT049");
+    sf::RenderWindow window(sf::VideoMode({600, 600}), "Manual Analog Clock");
     window.setFramerateLimit(60);
 
     //Defining font for menu
